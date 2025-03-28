@@ -4,7 +4,6 @@
 
 例如代码段
 
-
 ```markdown
 first-order-accurate
 $$
@@ -14,15 +13,15 @@ $$
 
 在本地vscode预览正常，应为
 
->first-order-accurate
->$$
+first-order-accurate
+$$
 (\frac{\partial u}{\partial x}) _{i,j}=\frac{u _{i+1,j}-u _{i,j}}{\Delta x}+O(\Delta x)
 $$
 
 实际上会渲染失败：
 
->first-order-accurate
->$$
+first-order-accurate
+$$
 (\frac{\partial u}{\partial x})_{i,j}=\frac{u_{i+1,j}-u_{i,j}}{\Delta x}+O(\Delta x)
 $$
 
@@ -34,20 +33,12 @@ first-order-accurate
 $$
 (\frac{\partial u}{\partial x}) _{i,j}=\frac{u _{i+1,j}-u _{i,j}}{\Delta x}+O(\Delta x)
 $$
-
 ```
 
 即可恢复正常渲染。
-
->first-order-accurate
->
->$$
-(\frac{\partial u}{\partial x}) _{i,j}=\frac{u _{i+1,j}-u _{i,j}}{\Delta x}+O(\Delta x)
-$$
 
 first-order-accurate
 
 $$
 (\frac{\partial u}{\partial x}) _{i,j}=\frac{u _{i+1,j}-u _{i,j}}{\Delta x}+O(\Delta x)
 $$
-
