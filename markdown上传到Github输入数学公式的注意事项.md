@@ -31,3 +31,6 @@ $$
 ```
 
 即可恢复正常渲染。
+$$
+(\frac{\partial u}{\partial x}) _{i,j}=\frac{u _{i+1,j}-u _{i,j}}{\Delta x}+O(\Delta x)
+$$
