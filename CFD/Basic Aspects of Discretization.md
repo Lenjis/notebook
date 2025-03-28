@@ -6,7 +6,7 @@
 
 ![Taylor series about point(i,j)](image/BasicAspectsofDiscretization/1743155278026.png)
 
-Solving
+Solving\
 
 $$\left(\frac{\partial u}{\partial x}\right)_{i,j} = \frac{u_{i+1,j} - u_{i,j}}{\Delta x} - \left(\frac{\partial^2 u}{\partial x^2}\right)_{i,j} \frac{\Delta x}{2} - \left(\frac{\partial^3 u}{\partial x^3}\right)_{i,j} \frac{(\Delta x)^2}{6} + \dots$$
 
