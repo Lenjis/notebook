@@ -16,7 +16,7 @@ for $(\frac{\partial u}{\partial x})_{i,j}$
 $$(\frac{\partial u}{\partial x})_{i,j}=\frac{u_{i+1,j}-u_{i,j}}{\Delta x}+O(\Delta x)
 $$
 
-$$(\frac{\partial u}{\partial x})_{i,j}=\frac{u_{i+1,j}-u_{i,j}}{\Delta x}
+$$(\frac{\partial u}{\partial x})_{i,j}=\frac{u_{i+1,j}-u_{i,j}}{\delta x}
 $$
 
 **The Cauchy-Schwarz Inequality**
