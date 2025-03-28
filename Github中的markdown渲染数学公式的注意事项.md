@@ -19,7 +19,7 @@ $$
 (\frac{\partial u}{\partial x}) _{i,j}=\frac{u _{i+1,j}-u _{i,j}}{\Delta x}+O(\Delta x)
 $$
 
-实际上会渲染失败：
+在Github网页预览时会渲染失败：
 
 first-order-accurate
 $$
