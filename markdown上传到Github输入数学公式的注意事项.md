@@ -22,3 +22,12 @@ $$
 (\frac{\partial u}{\partial x})_{i,j}=\frac{u_{i+1,j}-u_{i,j}}{\Delta x}+O(\Delta x)
 $$
 
+此时需要将所有的下标（如`_{i,j}`）前添加空格：
+
+```markdown
+$$
+(\frac{\partial u}{\partial x}) _{i,j}=\frac{u _{i+1,j}-u _{i,j}}{\Delta x}+O(\Delta x)
+$$
+```
+
+即可恢复正常渲染。
